@@ -40,15 +40,13 @@ public class OracleDB {
 				try {
 					pstmt.close();
 					} catch (SQLException e) {
-						// TODO Auto-generated catch block
-							e.printStackTrace();
+						e.printStackTrace();
 						}
 					}
 					if (con!=null) {
 						try {
 							con.close();
 						} catch (SQLException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 					}
